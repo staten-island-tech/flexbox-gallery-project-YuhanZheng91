@@ -1,5 +1,7 @@
 body{
     font-size:10px;
+    background-color:#b4c4f0;
+    
 }
 
 .characters{
@@ -8,3 +10,7 @@ body{
     text-align: center;
 }
 
+.cdesc{
+    font-size:8rem;
+    text-align: center;
+}
