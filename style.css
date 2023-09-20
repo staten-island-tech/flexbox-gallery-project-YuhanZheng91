@@ -11,7 +11,10 @@ body{
     background-color: rgb(213, 250, 212);
     text-align: center;
     padding: 3px 3px;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin:10px;
+    border-radius: 5px;
+    height:250px;
 }
 
 .cdesc{
