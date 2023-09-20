@@ -14,13 +14,13 @@ body{
     padding: 3px;
     justify-content: space-evenly;
     border-radius: 5px;
-    max-height:400px;
+    max-height:500px;
     flex-wrap: wrap;
     flex-direction: row;
 }
 
 .cdesc{
-    font-size:1rem;
+    font-size:1.5rem;
     text-align: center;
     color: rgba(137, 207, 216, 0.763);
 }
