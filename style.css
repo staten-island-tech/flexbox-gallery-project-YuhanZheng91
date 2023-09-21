@@ -6,16 +6,20 @@ body{
     text-align:center;
     max-width:350px;
     margin: 0 auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .container{
     max-height:500px;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     margin: 0 auto;
     align-items: center;
     padding:3px;
+    box-shadow: #7d8cb7;
 }
 
 .characters{
@@ -24,9 +28,7 @@ body{
     text-align: center;
     padding:5px;
     margin:7rem auto;
-    justify-content: space-evenly;
     border-radius: 5px;
-
 }
 
 .cdesc{
@@ -35,19 +37,7 @@ body{
     color: rgba(137, 207, 216, 0.763);
 }
 */
+
 body{
-    display:flex;
-    font-size:30px;
-    flex-wrap: wrap;
-}
-
-.characters{
-    color:rgb(125, 199, 122);
-    background-color: rgb(213, 250, 212);
-}
-
-.cdesc{
-    font-size: 1.5rem;
-    text-align: center;
-    color: rgba(137, 207, 216, 0.763);
+    background-color: beige;
 }
