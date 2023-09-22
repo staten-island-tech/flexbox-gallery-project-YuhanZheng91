@@ -1,24 +1,29 @@
+body, 
+html,
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    font-size: 30px;
+}
+
 body{
-    font-size:30px;
     background-color:#b4c4f0;
     display: flex;
     text-align:center;
     max-width:350px;
     margin: 0 auto;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .container{
     max-height:500px;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
     margin: 0 auto;
     align-items: center;
     padding:3px;
-    box-shadow: #7d8cb7;
+    box-shadow: #7d8cb7; 
 }
 
 .characters{
@@ -33,5 +38,9 @@ body{
 .cdesc{
     font-size:1.5rem;
     text-align: center;
-    color: rgba(137, 207, 216, 0.763);
+    color: rgb(137, 207, 216);
+}
+
+img{
+    height:250px;
 }
