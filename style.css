@@ -8,7 +8,7 @@ html,
 }
 
 body{
-    background-color:#b4c4f0;
+    background-color:#b4d7f0;
     align-items: center;
     text-align: center;
 }
@@ -21,11 +21,13 @@ body{
 }
 
 .characters{
-    color:rgb(125,199,122);
+    color:rgb(113, 151, 112);
     background-color: rgb(213,250,212);
+    box-shadow: 10px 5px rgb(153, 228, 209);
+    align-items: center;
     padding:2%;
     width: 21%;
-    margin:5px;
+    margin:10px;
 }
 
 .cdesc{
