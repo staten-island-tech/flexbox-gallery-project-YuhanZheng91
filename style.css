@@ -22,13 +22,21 @@ body{
 }
 
 .characters{
-    color:rgb(113, 151, 112);
+    color:rgb(112, 151, 136);
     background-color: rgb(213,250,212);
     box-shadow: 10px 5px rgb(153, 228, 209);
     align-items: center;
     padding:2%;
     width: 21%;
     margin:10px;
+    transition: all 0.5s;
+}
+
+.characters:hover{
+    background-color: rgb(188, 240, 237);
+    transform: translateY(7px);
+    color: rgb(113, 184, 180);
+    box-shadow: 10px 10px rgb(126, 216, 194);
 }
 
 .cdesc{
