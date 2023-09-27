@@ -14,9 +14,20 @@ body{
     text-align: center;
 }
 
+h4{
+    font-size: 0.5rem;
+    color: rgb(85, 149, 192);
+}
+
 h2{
     color:rgb(101, 131, 151);
+    transition: all 0.5s;
 }
+
+h2:hover{
+    transform:scale(92%);
+}
+
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -28,6 +39,7 @@ h2{
     color:rgb(112, 151, 136);
     background-color: rgb(213,250,212);
     box-shadow: 10px 5px rgb(153, 228, 209);
+    font-size: 0.8rem;
     align-items: center;
     padding:2%;
     width: 21%;
