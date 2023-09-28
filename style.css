@@ -46,12 +46,27 @@ h2:hover{
     margin:10px;
     transition: all 0.5s;
 }
-
 .characters:hover{
     background-color: rgb(188, 240, 237);
     transform: translateY(7px);
     color: rgb(113, 184, 180);
     box-shadow: 10px 10px rgb(126, 216, 194);
+}
+
+/*use max-width when starting as desktop; use min-width when starting ass phone.
+keep the "@" codes below those mini code things
+when max-width: larger px code goes on top of smaller*/
+
+@media screen and (max-width: 1000px) {
+    .characters{
+        width:40%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .characters{
+        width:70%;
+    }
 }
 
 .cdesc{
